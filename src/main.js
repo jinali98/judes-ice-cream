@@ -80,4 +80,14 @@ const displayProducts = function () {
   });
 };
 
+// create silder for teimonial section
+
+const swiper = new Swiper(".swiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  speed: 300,
+});
+
 fetchProducts();

@@ -13,13 +13,17 @@
       href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive:wght@300&family=Montserrat:wght@600&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <script
-      defer
       src="https://kit.fontawesome.com/df9e34c1fe.js"
       crossorigin="anonymous"
     ></script>
-    <script defer src="./src/main.js"></script>
+
     <title>Jude's</title>
   </head>
   <body>
@@ -41,7 +45,9 @@
     <main>
       <!-- home section -->
       <section id="home-section" class="home-section">
-        <h1>ice cream as you have never known it</h1>
+        <h1 class="home-section-heading">
+          ice cream as you have never known it
+        </h1>
         <a href="#products-section" class="btn-blue btn">View Products</a>
       </section>
 
@@ -103,14 +109,16 @@
 
       <!-- reviews section -->
       <section id="reviews-section" class="reviews-section">
+        <h2 class="section-heading">Testimonials</h2>
+
         <!-- Slider main container -->
-        <div class="swiper">
+        <div class="swiper mySwiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide img">
               <img src="./src/images/users/UA1.png" alt="user-avatar" />
-              <p>
+              <p class="quote">
                 The Ice Creams are fresh and really tasty. The staff is
                 courteous too. The ice cream is not super sweet it is sweetened
                 just sufficiently, the flavors very identifiable. Amidst the
@@ -122,7 +130,7 @@
             </div>
             <div class="swiper-slide img">
               <img src="./src/images/users/UA2.png" alt="user-avatar" />
-              <p>
+              <p class="quote">
                 I was excited to try this flavor and it was super delicious.The
                 ice cream is truly incredible. The flavors are both Traditional
                 Ice cream flavors and amazing uniquely Indian tastes.
@@ -132,7 +140,7 @@
             </div>
             <div class="swiper-slide img">
               <img src="./src/images/users/UA4.png" alt="user-avatar" />
-              <p>
+              <p class="quote">
                 This is some of the best ice cream found in India. Everyone in
                 our group loved it. Mango was the bomb dot com. Others likes
                 coco crunch, coco almond.
@@ -148,10 +156,11 @@
           <div class="swiper-button-next"></div>
         </div>
       </section>
+
       <section id="faq-section" class="faq-section">
         <h2 class="section-heading">FAQs</h2>
         <div class="faq-img">
-          <img src="./src/images/faq.jpg" alt="ice-cream-tubs-on-a table" />
+          <!-- <img src="./src/images/faq.jpg" alt="ice-cream-tubs-on-a table" /> -->
         </div>
         <div class="faq-content">
           <div class="faq-wrapper">
@@ -244,5 +253,6 @@
         1QA
       </p>
     </footer>
+    <script src="./src/main.js"></script>
   </body>
 </html>
