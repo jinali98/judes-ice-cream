@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "id": "sp2111",
+      "inMain": false,
+      "category": "scoop",
+      "imageUrl": "./src/images/products/scoop/2111.png"
+    },
+    {
+      "id": "sp2150",
+      "inMain": false,
+      "category": "scoop",
+      "imageUrl": "./src/images/products/scoop/2150.png"
+    },
+    {
+      "id": "sp2153",
+      "inMain": true,
+      "category": "scoop",
+      "imageUrl": "./src/images/products/scoop/2153.png"
+    },
+    {
+      "id": "sp2154",
+      "inMain": false,
+      "category": "scoop",
+      "imageUrl": "./src/images/products/scoop/2154.png"
+    },
+    {
+      "id": "sp2156",
+      "inMain": true,
+      "category": "scoop",
+      "imageUrl": "./src/images/products/scoop/2156.png"
+    },
+    {
+      "id": "sp2157",
+      "inMain": true,
+      "category": "scoop",
+      "imageUrl": "./src/images/products/scoop/2157.png"
+    }
+  ],
+  [
+    {
+      "id": "cn2144",
+      "inMain": false,
+      "category": "carbonNegative",
+      "imageUrl": "./src/images/Products/carbonNegative/2144.png"
+    },
+    {
+      "id": "cn2146",
+      "inMain": false,
+      "category": "carbonNegative",
+      "imageUrl": "./src/images/Products/carbonNegative/2146.png"
+    },
+    {
+      "id": "cn2147",
+      "inMain": false,
+      "category": "carbonNegative",
+      "imageUrl": "./src/images/Products/carbonNegative/2147.png"
+    },
+    {
+      "id": "cn2148",
+      "inMain": true,
+      "category": "carbonNegative",
+      "imageUrl": "./src/images/Products/carbonNegative/2148.png"
+    },
+    {
+      "id": "cn2149",
+      "inMain": true,
+      "category": "carbonNegative",
+      "imageUrl": "./src/images/Products/carbonNegative/2199.png"
+    }
+  ],
+  [
+    {
+      "id": "tb2006",
+      "inMain": true,
+      "category": "tubs",
+      "imageUrl": "./src/images/products/tubs/2006.png"
+    },
+    {
+      "id": "tb2102",
+      "inMain": true,
+      "category": "tubs",
+      "imageUrl": "./src/images/products/tubs/2102.png"
+    },
+    {
+      "id": "tb2135",
+      "inMain": true,
+      "category": "tubs",
+      "imageUrl": "./src/images/products/tubs/2135.png"
+    },
+    {
+      "id": "tb2136",
+      "inMain": false,
+      "category": "tubs",
+      "imageUrl": "./src/images/products/tubs/2136.png"
+    },
+    {
+      "id": "tb2006",
+      "inMain": false,
+      "category": "tubs",
+      "imageUrl": "./src/images/products/tubs/2200.png"
+    },
+    {
+      "id": "tb2006",
+      "inMain": false,
+      "category": "tubs",
+      "imageUrl": "./src/images/products/tubs/2207.png"
+    }
+  ]
+]

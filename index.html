@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive:wght@300&family=Montserrat:wght@600&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/df9e34c1fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./src/main.js"></script>
+    <title>Jude's</title>
+  </head>
+  <body>
+    <nav class="nav-bar-header">
+      <h2 class="logo">
+        <a href="#">Jude's</a>
+      </h2>
+      <ul class="nav-items">
+        <a href="#about-section">About</a>
+        <a href="#products-section">Products</a>
+        <!-- <a href="#flavours-section">Flavours</a> -->
+        <a href="#reviews-section">Reviews</a>
+        <a href="#faq-section">FAQS</a>
+        <a href="#location-section">Find Us</a>
+      </ul>
+      <div class="hamburger-icon"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <main>
+      <!-- home section -->
+      <section id="home-section" class="home-section">
+        <h1>ice cream as you have never known it</h1>
+        <a href="#products-section" class="btn-blue btn">View Products</a>
+      </section>
+
+      <!-- about section -->
+      <section id="about-section" class="about-section">
+        <div class="about-img">
+          <!-- <img
+            src="./src/images/about-img.jpg"
+            alt="testing-various-ice-creams"
+          /> -->
+        </div>
+        <div class="about-content">
+          <p class="about-main">
+            Hello. We're Jude's, a family ice cream company dedicated to
+            crafting unbelievably delicious stripey tubs of joy.
+          </p>
+          <p class="about-secondary">
+            Our dad was starting an ice cream company. What began as a barely
+            whispered idea was soon actually happening. He started small and set
+            to work in our old barn at home in Hampshire. Our mum joined him and
+            he decided to name the company after her. On 19th December 2002 he
+            walked across the field to the village pub and sold the very first
+            tub of Jude’s ice cream. We (Alex and Chow) soon realised that the
+            ice cream was seriously good and were convinced it should be served
+            in the best restaurants. So we joined our parents at Jude's...
+          </p>
+        </div>
+      </section>
+
+      <!-- products -->
+      <section id="products-section" class="products-section">
+        <h2 class="section-heading">Our Products</h2>
+        <div class="product-nav">
+          <ul class="product-nav-items">
+            <li data-product="0" class="product-item">Scoops</li>
+            <li data-product="1" class="product-item">Carbon-Negative</li>
+            <li data-product="2" class="product-item">Tubs</li>
+          </ul>
+        </div>
+        <div class="product-gallery"></div>
+      </section>
+
+      <!-- flavours section -->
+      <!-- <section id="flavours-section" class="flavours-section">
+        <h2 class="section-heading">Our Flavours</h2>
+        <div class="flavours-gallery"> -->
+      <!-- get data frim json and display here -->
+      <!-- <div class="card">
+            <p>flavour name</p>
+          </div>
+          <div class="card">
+            <p>flavour name</p>
+          </div>
+          <div class="card">
+            <p>flavour name</p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- reviews section -->
+      <section id="reviews-section" class="reviews-section">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide img">
+              <img src="./src/images/users/UA1.png" alt="user-avatar" />
+              <p>
+                The Ice Creams are fresh and really tasty. The staff is
+                courteous too. The ice cream is not super sweet it is sweetened
+                just sufficiently, the flavors very identifiable. Amidst the
+                array of flavors, the season specials are THE best...
+              </p>
+              <p class="name-client">Anton D.</p>
+
+              <p>Date of visit: May 2017</p>
+            </div>
+            <div class="swiper-slide img">
+              <img src="./src/images/users/UA2.png" alt="user-avatar" />
+              <p>
+                I was excited to try this flavor and it was super delicious.The
+                ice cream is truly incredible. The flavors are both Traditional
+                Ice cream flavors and amazing uniquely Indian tastes.
+              </p>
+              <p class="name-client">Lucy B.</p>
+              <p>Date of visit: May 2017</p>
+            </div>
+            <div class="swiper-slide img">
+              <img src="./src/images/users/UA4.png" alt="user-avatar" />
+              <p>
+                This is some of the best ice cream found in India. Everyone in
+                our group loved it. Mango was the bomb dot com. Others likes
+                coco crunch, coco almond.
+              </p>
+              <p class="name-client">Jane M.</p>
+
+              <p>Date of visit: May 2017</p>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section id="faq-section" class="faq-section">
+        <h2 class="section-heading">FAQs</h2>
+        <div class="faq-img">
+          <img src="./src/images/faq.jpg" alt="ice-cream-tubs-on-a table" />
+        </div>
+        <div class="faq-content">
+          <div class="faq-wrapper">
+            <p class="question">
+              Will the ice cream be left on the doorstep if the recipient isn’t
+              at home?
+            </p>
+            <p class="answer">
+              Yes, the ice cream is packed with dry ice which keeps it frozen
+              until 6pm on the day of delivery, so it’s not a problem if the
+              person receiving your gift box is not at home.
+            </p>
+          </div>
+          <div class="faq-wrapper">
+            <p class="question">
+              How long will the ice cream stay cold for if the recipient is not
+              at home to receive it?
+            </p>
+            <p class="answer">
+              The ice cream is packed with dry ice which keeps it cold until 6pm
+              on the day of delivery, so it should still be frozen when they get
+              home.
+            </p>
+          </div>
+          <div class="faq-wrapper">
+            <p class="question">
+              How much space will the ice cream take up in my freezer?
+            </p>
+            <p class="answer">
+              6 x 460ml tubs of our utterly delicious ice cream takes up
+              approximately as much space as a standard shoe box (not as much as
+              you might think!).
+            </p>
+          </div>
+          <div class="faq-wrapper">
+            <p class="question">Is your delivery partner eco-friendly too?</p>
+            <p class="answer">
+              We have chosen to work with DPD as they have made a commitment to
+              making their deliveries Carbon Neutral. You can read more about
+              their commitment here.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="location-section" class="location-section">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./src/images/stores/co-op.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/images/stores/cobbs.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/images/stores/national-trust.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/images/stores/ocado.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/images/stores/tesco.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./src/images/stores/whole-foods.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>join the family</h2>
+      <p>for news, recipes and competitions</p>
+      <form>
+        <input type="text" name="email" id="email" />
+        <button class="btn" type="submit">join</button>
+      </form>
+      <p>we would love to hear from you</p>
+      <div class="social-media-icons"></div>
+      <ul class="nav-items">
+        <a href="#about-section">About</a>
+        <a href="#products-section">Products</a>
+        <a href="#flavours-section">Flavours</a>
+        <a href="#reviews-section">Reviews</a>
+        <a href="#faq-section">FAQS</a>
+        <a href="#location-section">Find Us</a>
+      </ul>
+      <p class="address">
+        JUDE'S, NORTHFIELDS FARM, HAZELEY ROAD, TWYFORD, WINCHESTER, HANTS, SO21
+        1QA
+      </p>
+    </footer>
+  </body>
+</html>
