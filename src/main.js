@@ -7,12 +7,22 @@ const productGallery = document.querySelector(".product-gallery");
 
 const productNavLinks = document.querySelectorAll(".product-item");
 
+const questions = document.querySelectorAll(".question");
+const answers = document.querySelectorAll(".answer");
+
 let productData = [];
 
 //toggle navigation menu
 hamburgerBtn.addEventListener("click", function () {
   navigationBar.classList.toggle("nav-toggle");
 });
+
+// re usable function to remove classNames
+const removeActiveClass = function (list, className) {
+  list.forEach((item) => {
+    item.classList.remove(className);
+  });
+};
 
 const fetchData = async function (url) {
   try {
@@ -43,15 +53,9 @@ const productNavLinkHandler = function (link) {
   });
 };
 
-const removeActiveClass = function () {
-  productNavLinks.forEach((link) => {
-    link.classList.remove("active");
-  });
-};
-
 productNavLinks.forEach((link) => {
   link.addEventListener("click", function () {
-    removeActiveClass();
+    removeActiveClass(productNavLinks, "active");
     productNavLinkHandler(link);
   });
 });
@@ -79,6 +83,14 @@ const displayProducts = function () {
     });
   });
 };
+
+questions.forEach((question) => {
+  question.addEventListener("click", function () {
+    removeActiveClass(answers, "open-ans");
+    // add the active class
+    question.nextElementSibling.classList.add("open-ans");
+  });
+});
 
 // create silder for teimonial section
 

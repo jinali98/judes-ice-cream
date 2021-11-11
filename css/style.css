@@ -264,6 +264,61 @@ button {
 .quote {
   font-family: var(--font-logo);
 }
+
+/* FAQ section */
+
+.faq-section {
+  height: 90vh;
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+.faq-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.faq-img {
+  width: 50%;
+
+  background-image: url("../src/images/faq.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.faq-content {
+  width: 40%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.question,
+.answer {
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.question {
+  background-color: var(--secondary-blue);
+  font-weight: var(--title-font-weight);
+}
+
+.answer {
+  border: 1px solid var(--text-color-secondary);
+  margin-top: 10px;
+}
+.close-ans {
+  display: none;
+}
+
+.open-ans {
+  display: block;
+}
 @media (max-width: 992px) {
   .home-section {
     background-color: var(--secondary-blue);
@@ -368,6 +423,37 @@ button {
     width: 200px;
     height: 200px;
   }
+
+  /* FAQ section */
+
+  .faq-section {
+    height: max-content;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+  }
+  .faq-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 100vh;
+  }
+
+  .faq-img {
+    width: 80vw;
+    height: 500px;
+  }
+
+  .faq-content {
+    width: 80%;
+    height: 800px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 360px) {
@@ -410,5 +496,34 @@ button {
   .swiper {
     width: 80vw;
     height: 90vh;
+  }
+  /* FAQ section */
+
+  .faq-section {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+  }
+  .faq-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    /* height: 100vh; */
+  }
+
+  .faq-img {
+    width: 80vw;
+    height: 900px;
+  }
+
+  .faq-content {
+    width: 90%;
+    height: 800px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
