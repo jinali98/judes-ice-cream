@@ -4,37 +4,37 @@
       "id": "sp2111",
       "inMain": false,
       "category": "scoop",
-      "imageUrl": "./src/images/products/scoop/2111.png"
+      "imageUrl": "./src/images/Products/scoop/2111.png"
     },
     {
       "id": "sp2150",
       "inMain": false,
       "category": "scoop",
-      "imageUrl": "./src/images/products/scoop/2150.png"
+      "imageUrl": "./src/images/Products/scoop/2150.png"
     },
     {
       "id": "sp2153",
       "inMain": true,
       "category": "scoop",
-      "imageUrl": "./src/images/products/scoop/2153.png"
+      "imageUrl": "./src/images/Products/scoop/2153.png"
     },
     {
       "id": "sp2154",
       "inMain": false,
       "category": "scoop",
-      "imageUrl": "./src/images/products/scoop/2154.png"
+      "imageUrl": "./src/images/Products/scoop/2154.png"
     },
     {
       "id": "sp2156",
       "inMain": true,
       "category": "scoop",
-      "imageUrl": "./src/images/products/scoop/2156.png"
+      "imageUrl": "./src/images/Products/scoop/2156.png"
     },
     {
       "id": "sp2157",
       "inMain": true,
       "category": "scoop",
-      "imageUrl": "./src/images/products/scoop/2157.png"
+      "imageUrl": "./src/images/Products/scoop/2157.png"
     }
   ],
   [
